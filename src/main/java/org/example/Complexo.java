@@ -13,6 +13,6 @@ public class Complexo {
     }
 
     public static double modulus(double n1, double n2){
-        return Math.pow(n1,2) + Math.pow(n2,2);
+        return Math.sqrt(Math.pow(n1,2) + Math.pow(n2,2));
     }
 }

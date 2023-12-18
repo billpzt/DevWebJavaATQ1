@@ -19,6 +19,6 @@ class ComplexoTest {
 
     @Test
     void modulus() {
-        assertEquals(29,cpx.modulus(2, 5));
+        assertEquals(6.4031242374328485,cpx.modulus(4, 5));
     }
 }
